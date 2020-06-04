@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/speak1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_gridview"
+        android:text="DaDaDaDaDa"
+        android:textSize="24sp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/speak2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_gridview"
+        android:layout_marginTop="15dp"
+        android:textSize="24sp"
+        android:text="RuaRuaRuaRuaRua"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/speak3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_gridview"
+        android:layout_marginTop="15dp"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:text="BlingBlingBling"/>
+</LinearLayout>
